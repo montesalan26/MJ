@@ -1,0 +1,414 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A6299CB92B0D808500214CD4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6299CB82B0D808500214CD4 /* AppDelegate.swift */; };
+		A6299CBB2B0D808500214CD4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6299CBA2B0D808500214CD4 /* SceneDelegate.swift */; };
+		A6299CBD2B0D808500214CD4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6299CBC2B0D808500214CD4 /* ViewController.swift */; };
+		A6299CC02B0D808500214CD4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6299CBE2B0D808500214CD4 /* Main.storyboard */; };
+		A6299CC22B0D808600214CD4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A6299CC12B0D808600214CD4 /* Assets.xcassets */; };
+		A6299CC52B0D808600214CD4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6299CC32B0D808600214CD4 /* LaunchScreen.storyboard */; };
+		A6299CD12B0D86AC00214CD4 /* breakCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6299CD02B0D86AC00214CD4 /* breakCalculator.swift */; };
+		A69DBEE32B2BC4AF0063B037 /* mainScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = A69DBEE22B2BC4AF0063B037 /* mainScreen.swift */; };
+		A69EF8992B1564C400FEEE05 /* breakLunchResults.swift in Sources */ = {isa = PBXBuildFile; fileRef = A69EF8982B1564C400FEEE05 /* breakLunchResults.swift */; };
+		A69EF89B2B15650800FEEE05 /* retainResults.swift in Sources */ = {isa = PBXBuildFile; fileRef = A69EF89A2B15650800FEEE05 /* retainResults.swift */; };
+		A69EF89D2B15656D00FEEE05 /* truckCompartmentResults.swift in Sources */ = {isa = PBXBuildFile; fileRef = A69EF89C2B15656D00FEEE05 /* truckCompartmentResults.swift */; };
+		A69EF89F2B15658200FEEE05 /* gasStationResults.swift in Sources */ = {isa = PBXBuildFile; fileRef = A69EF89E2B15658200FEEE05 /* gasStationResults.swift */; };
+		A6A7A7372B1538F3005A6FC6 /* retainCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6A7A7362B1538F3005A6FC6 /* retainCalculator.swift */; };
+		A6A7A7392B153950005A6FC6 /* truckCompartments.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6A7A7382B153950005A6FC6 /* truckCompartments.swift */; };
+		A6A7A73B2B1539B7005A6FC6 /* gasStations.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6A7A73A2B1539B7005A6FC6 /* gasStations.swift */; };
+		A6AA8CB72B290CA900E2992C /* truckAndTrailerCompartments.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6AA8CB62B290CA900E2992C /* truckAndTrailerCompartments.swift */; };
+		A6B5434F2B19414200CAD478 /* trucks.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6B5434E2B19414200CAD478 /* trucks.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A6299CB52B0D808500214CD4 /* MJ Tank Lines.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MJ Tank Lines.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6299CB82B0D808500214CD4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A6299CBA2B0D808500214CD4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		A6299CBC2B0D808500214CD4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A6299CBF2B0D808500214CD4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A6299CC12B0D808600214CD4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A6299CC42B0D808600214CD4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A6299CC62B0D808600214CD4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A6299CD02B0D86AC00214CD4 /* breakCalculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = breakCalculator.swift; sourceTree = "<group>"; };
+		A69DBEE22B2BC4AF0063B037 /* mainScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mainScreen.swift; sourceTree = "<group>"; };
+		A69EF8982B1564C400FEEE05 /* breakLunchResults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = breakLunchResults.swift; sourceTree = "<group>"; };
+		A69EF89A2B15650800FEEE05 /* retainResults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = retainResults.swift; sourceTree = "<group>"; };
+		A69EF89C2B15656D00FEEE05 /* truckCompartmentResults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = truckCompartmentResults.swift; sourceTree = "<group>"; };
+		A69EF89E2B15658200FEEE05 /* gasStationResults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gasStationResults.swift; sourceTree = "<group>"; };
+		A6A7A7362B1538F3005A6FC6 /* retainCalculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = retainCalculator.swift; sourceTree = "<group>"; };
+		A6A7A7382B153950005A6FC6 /* truckCompartments.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = truckCompartments.swift; sourceTree = "<group>"; };
+		A6A7A73A2B1539B7005A6FC6 /* gasStations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gasStations.swift; sourceTree = "<group>"; };
+		A6AA8CB62B290CA900E2992C /* truckAndTrailerCompartments.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = truckAndTrailerCompartments.swift; sourceTree = "<group>"; };
+		A6B5434E2B19414200CAD478 /* trucks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = trucks.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A6299CB22B0D808500214CD4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A6299CAC2B0D808400214CD4 = {
+			isa = PBXGroup;
+			children = (
+				A6299CB72B0D808500214CD4 /* MJ */,
+				A6299CB62B0D808500214CD4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A6299CB62B0D808500214CD4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A6299CB52B0D808500214CD4 /* MJ Tank Lines.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A6299CB72B0D808500214CD4 /* MJ */ = {
+			isa = PBXGroup;
+			children = (
+				A6299CB82B0D808500214CD4 /* AppDelegate.swift */,
+				A69DBEE22B2BC4AF0063B037 /* mainScreen.swift */,
+				A6AA8CB62B290CA900E2992C /* truckAndTrailerCompartments.swift */,
+				A6A7A73A2B1539B7005A6FC6 /* gasStations.swift */,
+				A6A7A7382B153950005A6FC6 /* truckCompartments.swift */,
+				A6B5434E2B19414200CAD478 /* trucks.swift */,
+				A69EF8982B1564C400FEEE05 /* breakLunchResults.swift */,
+				A69EF89A2B15650800FEEE05 /* retainResults.swift */,
+				A6A7A7362B1538F3005A6FC6 /* retainCalculator.swift */,
+				A6299CD02B0D86AC00214CD4 /* breakCalculator.swift */,
+				A69EF89C2B15656D00FEEE05 /* truckCompartmentResults.swift */,
+				A69EF89E2B15658200FEEE05 /* gasStationResults.swift */,
+				A6299CBA2B0D808500214CD4 /* SceneDelegate.swift */,
+				A6299CBC2B0D808500214CD4 /* ViewController.swift */,
+				A6299CBE2B0D808500214CD4 /* Main.storyboard */,
+				A6299CC12B0D808600214CD4 /* Assets.xcassets */,
+				A6299CC32B0D808600214CD4 /* LaunchScreen.storyboard */,
+				A6299CC62B0D808600214CD4 /* Info.plist */,
+			);
+			path = MJ;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A6299CB42B0D808500214CD4 /* MJ Tank Lines */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6299CC92B0D808600214CD4 /* Build configuration list for PBXNativeTarget "MJ Tank Lines" */;
+			buildPhases = (
+				A6299CB12B0D808500214CD4 /* Sources */,
+				A6299CB22B0D808500214CD4 /* Frameworks */,
+				A6299CB32B0D808500214CD4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MJ Tank Lines";
+			productName = MJ;
+			productReference = A6299CB52B0D808500214CD4 /* MJ Tank Lines.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A6299CAD2B0D808400214CD4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					A6299CB42B0D808500214CD4 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = A6299CB02B0D808400214CD4 /* Build configuration list for PBXProject "MJ Tank Lines" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A6299CAC2B0D808400214CD4;
+			productRefGroup = A6299CB62B0D808500214CD4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A6299CB42B0D808500214CD4 /* MJ Tank Lines */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A6299CB32B0D808500214CD4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6299CC52B0D808600214CD4 /* LaunchScreen.storyboard in Resources */,
+				A6299CC22B0D808600214CD4 /* Assets.xcassets in Resources */,
+				A6299CC02B0D808500214CD4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A6299CB12B0D808500214CD4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6299CBD2B0D808500214CD4 /* ViewController.swift in Sources */,
+				A6299CB92B0D808500214CD4 /* AppDelegate.swift in Sources */,
+				A6299CBB2B0D808500214CD4 /* SceneDelegate.swift in Sources */,
+				A69EF8992B1564C400FEEE05 /* breakLunchResults.swift in Sources */,
+				A6AA8CB72B290CA900E2992C /* truckAndTrailerCompartments.swift in Sources */,
+				A6299CD12B0D86AC00214CD4 /* breakCalculator.swift in Sources */,
+				A69EF89D2B15656D00FEEE05 /* truckCompartmentResults.swift in Sources */,
+				A6A7A7392B153950005A6FC6 /* truckCompartments.swift in Sources */,
+				A6B5434F2B19414200CAD478 /* trucks.swift in Sources */,
+				A6A7A7372B1538F3005A6FC6 /* retainCalculator.swift in Sources */,
+				A6A7A73B2B1539B7005A6FC6 /* gasStations.swift in Sources */,
+				A69EF89F2B15658200FEEE05 /* gasStationResults.swift in Sources */,
+				A69DBEE32B2BC4AF0063B037 /* mainScreen.swift in Sources */,
+				A69EF89B2B15650800FEEE05 /* retainResults.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A6299CBE2B0D808500214CD4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A6299CBF2B0D808500214CD4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A6299CC32B0D808600214CD4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A6299CC42B0D808600214CD4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A6299CC72B0D808600214CD4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A6299CC82B0D808600214CD4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A6299CCA2B0D808600214CD4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DPHPZ3NX5F;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MJ/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = co.alanmontes.MJ;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A6299CCB2B0D808600214CD4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DPHPZ3NX5F;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MJ/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = co.alanmontes.MJ;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A6299CB02B0D808400214CD4 /* Build configuration list for PBXProject "MJ Tank Lines" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6299CC72B0D808600214CD4 /* Debug */,
+				A6299CC82B0D808600214CD4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A6299CC92B0D808600214CD4 /* Build configuration list for PBXNativeTarget "MJ Tank Lines" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6299CCA2B0D808600214CD4 /* Debug */,
+				A6299CCB2B0D808600214CD4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A6299CAD2B0D808400214CD4 /* Project object */;
+}
